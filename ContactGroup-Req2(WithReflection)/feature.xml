@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feature>
+    	<classDefinition>
+		<className>Main</className>
+		<modifier>public</modifier>
+	</classDefinition>
+	
+	<classDefinition>
+		<className>ContactBO</className>
+		<modifier>public</modifier>
+		
+		<methods>
+			
+			
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>findContact</methodName>
+				<returnType>java.util.List&lt;Contact&gt;</returnType>
+				<parameterType>java.util.List&lt;Contact&gt;</parameterType>
+				<parameterType>java.util.List&lt;java.lang.String&gt;</parameterType>			
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>findContact</methodName>
+				<returnType>java.util.List&lt;Contact&gt;</returnType>
+				<parameterType>java.util.List&lt;Contact&gt;</parameterType>
+				<parameterType>java.util.Date</parameterType>			
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>findContact</methodName>
+				<returnType>java.util.List&lt;Contact&gt;</returnType>
+				<parameterType>java.util.List&lt;Contact&gt;</parameterType>
+				<parameterType>java.lang.String</parameterType>			
+			</method>
+			
+			
+	
+			
+		</methods>	
+		
+	</classDefinition>
+		
+	<classDefinition>
+		<className>Contact</className>
+		<modifier>public</modifier>
+			<fields>
+			<field>
+				<type>java.lang.String</type>
+				<name>name</name>
+				<modifier>private</modifier>
+			</field>
+			<field>
+				<type>java.lang.String</type>
+				<name>company</name>
+				<modifier>private</modifier>
+			</field>
+			<field>
+				<type>java.lang.String</type>
+				<name>title</name>
+				<modifier>private</modifier>
+			</field>
+			<field>
+				<type>java.lang.String</type>
+				<name>mobile</name>
+				<modifier>private</modifier>
+			</field>
+			<field>
+				<type>java.lang.String</type>
+				<name>alternateMobile</name>
+				<modifier>private</modifier>
+			</field>
+			<field>
+				<type>java.lang.String</type>
+				<name>email</name>
+				<modifier>private</modifier>
+			</field>
+			<field>
+				<type>java.util.Date</type>
+				<name>dateCreated</name>
+				<modifier>private</modifier>
+			</field>			
+		</fields>
+		
+		<constructors>
+			<constructor>
+				<accessSpecifier>public</accessSpecifier>
+				<parameterType>java.lang.String</parameterType>
+				<parameterType>java.lang.String</parameterType>
+				<parameterType>java.lang.String</parameterType>
+				<parameterType>java.lang.String</parameterType>
+				<parameterType>java.lang.String</parameterType>
+				<parameterType>java.lang.String</parameterType>
+				<parameterType>java.util.Date</parameterType>	
+			</constructor>
+			<constructor>
+				<accessSpecifier>public</accessSpecifier>
+			</constructor>			
+		</constructors>			
+				
+		<methods>
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>setName</methodName>
+				<returnType>void</returnType>
+				<parameterType>java.lang.String</parameterType>			
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>setCompany</methodName>
+				<returnType>void</returnType>
+				<parameterType>java.lang.String</parameterType>			
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>setTitle</methodName>
+				<returnType>void</returnType>
+				<parameterType>java.lang.String</parameterType>			
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>setMobile</methodName>
+				<returnType>void</returnType>
+				<parameterType>java.lang.String</parameterType>			
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>setAlternateMobile</methodName>
+				<returnType>void</returnType>
+				<parameterType>java.lang.String</parameterType>			
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>setEmail</methodName>
+				<returnType>void</returnType>
+				<parameterType>java.lang.String</parameterType>			
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>setDateCreated</methodName>
+				<returnType>void</returnType>
+				<parameterType>java.util.Date</parameterType>			
+			</method>
+						
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>getName</methodName>
+				<returnType>java.lang.String</returnType>		
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>getCompany</methodName>
+				<returnType>java.lang.String</returnType>		
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>getTitle</methodName>
+				<returnType>java.lang.String</returnType>		
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>getMobile</methodName>
+				<returnType>java.lang.String</returnType>		
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>getAlternateMobile</methodName>
+				<returnType>java.lang.String</returnType>		
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>getEmail</methodName>
+				<returnType>java.lang.String</returnType>		
+			</method>
+			
+			<method>
+				<accessSpecifier>public</accessSpecifier>
+				<methodName>getDateCreated</methodName>
+				<returnType>java.util.Date</returnType>		
+			</method>	
+		
+		</methods>
+		
+	</classDefinition>
+
+</feature>
